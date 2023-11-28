@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ *insert_node - function in C that inserts a number
+ * head: pointer to address
+ * number: integer number enter by user
+ *Return: adress or null
+ */
+
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *new_node, *current_node;
