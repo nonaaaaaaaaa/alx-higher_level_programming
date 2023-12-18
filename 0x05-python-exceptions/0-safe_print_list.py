@@ -8,4 +8,4 @@ total = 0
         except IndexError:
             break
     print("")
-    return (total)
+    return
